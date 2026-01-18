@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>First Aid Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>First Aid Guide</h1>
+  <p>Quick help for common emergencies</p>
+</header>
+
+<div class="container">
+  <div class="search-box">
+    <input type="text" id="search" placeholder="Search emergency (e.g. burn, bleeding, choking)">
+  </div>
+
+  <div class="grid" id="cards"></div>
+
+  <div class="guide" id="guide">
+    <h2 id="guideTitle"></h2>
+    <div id="steps"></div>
+    <button class="back-btn" onclick="showGrid()">Back to Guide</button>
+  </div>
+
+  <footer>
+    Offline First Aid Manual | Day 18 of 90
+  </footer>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

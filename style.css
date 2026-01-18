@@ -1,0 +1,95 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      margin: 0;
+      padding: 10px;
+    }
+
+    header {
+      background: #c62828;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      border-radius: 0 0 10px 10px;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .search-box {
+      margin: 15px 0;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .icon {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .guide {
+      display: none;
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+
+    .guide h2 {
+      color: #c62828;
+    }
+
+    .step {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .back-btn {
+      margin-top: 10px;
+      background: #c62828;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .back-btn:hover {
+      background: #b71c1c;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #777;
+      font-size: 14px;
+    }
