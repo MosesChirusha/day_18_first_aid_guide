@@ -25,8 +25,8 @@ under stress.
 ---
 
 ## Ressources
-- [Demo:]()
-- [Medium Article:]()
+- [Demo:](https://moseschirusha.github.io/day_18_first_aid_guide)
+- [Medium Article:](https://moseschirusha.medium.com/the-five-minutes-that-matter-most-why-everyone-should-carry-first-aid-knowledge-in-their-pocket-e2b6397bd899)
 
 ## Tech Stack
 - HTML
